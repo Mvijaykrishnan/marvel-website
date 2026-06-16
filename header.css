@@ -1,0 +1,104 @@
+.container{
+    padding-inline: 20px;
+    position: relative;
+}
+@media(width>768px){
+    .container{
+        max-width: 1300px;
+        margin-inline: auto;
+    }
+}
+.image img {
+    width: 120px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 30px;
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav1 {
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.978);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.nav {
+    padding-top: 15px;
+}
+
+.nav1 {
+    background-image: url(/images/mar\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media(width>=300px){
+
+ .image img {
+    width: 120px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 30px;
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav1 {
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.978);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.nav {
+    padding-top: 15px;
+}
+}
+
+
+@media(width>= 300px){
+
+    image img {
+    width: 120px;
+    border-radius: 5px;
+    /* margin-left: -880px; */
+}
+    
+}
